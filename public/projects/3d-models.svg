@@ -1,0 +1,52 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rich burgundy/maroon background -->
+  <rect width="1200" height="800" fill="url(#paint0_linear)"/>
+  
+  <!-- Character silhouettes -->
+  <g opacity="0.15">
+    <!-- Left character silhouette -->
+    <ellipse cx="250" cy="600" rx="80" ry="20" fill="#2C1810"/>
+    <path d="M250 350 L250 580 Q250 590 240 590 L260 590 Q270 590 270 580 L270 350 Q270 340 260 340 L240 340 Q250 340 250 350 Z" fill="#8B4C4C"/>
+    
+    <!-- Center character (Moana) larger -->
+    <ellipse cx="600" cy="650" rx="120" ry="30" fill="#2C1810"/>
+    <path d="M600 320 L600 620 Q600 640 580 640 L620 640 Q640 640 640 620 L640 320 Q640 300 620 300 L580 300 Q600 300 600 320 Z" fill="#B85C5C"/>
+    
+    <!-- Right character silhouette -->
+    <ellipse cx="950" cy="600" rx="80" ry="20" fill="#2C1810"/>
+    <path d="M950 350 L950 580 Q950 590 940 590 L960 590 Q970 590 970 580 L970 350 Q970 340 960 340 L940 340 Q950 340 950 350 Z" fill="#8B4C4C"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="600" y="180" font-family="'Manrope', sans-serif" font-size="96" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.02em">
+    3D MODELS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="240" font-family="'DM Sans', sans-serif" font-size="32" font-weight="600" fill="#E8B4B8" text-anchor="middle">
+    Moana
+  </text>
+  
+  <text x="600" y="280" font-family="'DM Sans', sans-serif" font-size="20" fill="#C9999E" text-anchor="middle">
+    Brave, determined, responsible, and compassionate.
+  </text>
+  
+  <!-- Bottom text -->
+  <text x="1050" y="620" font-family="'Manrope', sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="end">
+    Exploring All
+  </text>
+  <path d="M1070 605 L1100 620 L1070 635 Z" fill="#FFFFFF"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="150" cy="150" r="60" fill="#8B4C4C" opacity="0.2"/>
+  <circle cx="1050" cy="200" r="80" fill="#B85C5C" opacity="0.15"/>
+  <circle cx="200" cy="700" r="40" fill="#A06B6B" opacity="0.2"/>
+  <circle cx="1000" cy="450" r="50" fill="#8B4C4C" opacity="0.15"/>
+  
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B2E2E"/>
+      <stop offset="1" stop-color="#4A1F1F"/>
+    </linearGradient>
+  </defs>
+</svg>

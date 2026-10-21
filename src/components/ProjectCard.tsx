@@ -27,6 +27,12 @@ const ProjectCard = ({ project, index, onOpenCase }: ProjectCardProps) => {
             alt={project.title}
             className="w-full h-full object-cover"
           />
+        ) : project.id === '3dmodels' ? (
+          <img
+            src="/projects/3d-models.svg"
+            alt={project.title}
+            className="w-full h-full object-cover"
+          />
         ) : (
           <>
             <div className="absolute inset-0 bg-gradient-to-br from-green/10 to-sky/10" />

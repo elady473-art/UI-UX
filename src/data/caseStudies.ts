@@ -1,6 +1,36 @@
 import { CaseStudyDetails } from '../types';
 
 export const caseStudyDetails: CaseStudyDetails = {
+  '3dmodels': {
+    kicker: '3D DESIGN · CHARACTER MODELING',
+    title: '3D Models Collection',
+    intro:
+      'A collection of Disney-inspired 3D character models created in Figma, featuring Moana and other beloved characters with attention to detail in modeling, texturing, and expressions.',
+    sections: [
+      [
+        'Project overview',
+        'This project explores 3D character modeling within Figma, bringing iconic Disney characters to life with dimensional depth, accurate proportions, and recognizable features.',
+      ],
+      [
+        'Featured character: Moana',
+        'The centerpiece features Moana in her signature outfit, complete with detailed texturing on her traditional Polynesian clothing, flowing hair, and her characteristic determined expression. The model captures her brave and compassionate personality.',
+      ],
+      [
+        'Supporting characters',
+        'The collection includes additional Disney characters such as Rapunzel, Anna, and Pua (Moana\'s pet pig), each modeled with attention to their unique characteristics and visual style.',
+      ],
+      [
+        'Technical approach',
+        'Created using Figma\'s 3D capabilities, the models demonstrate understanding of form, lighting, shadows, and spatial relationships. Each character is positioned to create dynamic compositions.',
+      ],
+      [
+        'Interactive prototype',
+        'The prototype allows viewers to explore the 3D models collection, showcasing different angles and presentations of the characters in an engaging, navigable format.',
+      ],
+    ],
+    note:
+      'These 3D models are created for portfolio and learning purposes, inspired by Disney characters. All character designs and intellectual property belong to their respective owners.',
+  },
   prms: {
     kicker: 'ENTERPRISE UX · INSA INTERNSHIP',
     title: 'PRMS service experience',

@@ -2,6 +2,18 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
+    id: '3dmodels',
+    category: '3D DESIGN · CHARACTER MODELS',
+    title: '3D Models Collection',
+    description:
+      'A showcase of Disney-inspired 3D character models including Moana, featuring detailed modeling, texturing, and character expressions.',
+    chips: ['3D Modeling', 'Character Design', 'Figma 3D', 'Disney Characters'],
+    type: 'standard',
+    visualType: '3dmodels',
+    figmaUrl: 'https://www.figma.com/design/j9xkBo9nl1KVwyUC2dR7VF/3D-models?node-id=0-1&p=f&t=tR9tBSbFcsbxt0XW-0',
+    externalUrl: 'https://www.figma.com/proto/j9xkBo9nl1KVwyUC2dR7VF/3D-models?node-id=1-2&p=f&t=tR9tBSbFcsbxt0XW-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1',
+  },
+  {
     id: 'prms',
     category: 'ENTERPRISE UX · MICROSERVICE',
     title: 'PRMS service experience',

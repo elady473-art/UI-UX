@@ -9,8 +9,18 @@ const Contact = () => {
         </svg>
       ),
       label: 'Email',
-      value: 'emebet.mesfin@example.com',
-      href: 'mailto:emebet.mesfin@example.com',
+      value: 'elady473@gmail.com',
+      href: 'mailto:elady473@gmail.com',
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.008-1.252-.242-1.865-.442-.751-.244-1.349-.374-1.297-.789.027-.216.324-.437.892-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.002.321.023.465.141.121.099.155.232.171.325.016.093.036.305.02.471z"/>
+        </svg>
+      ),
+      label: 'Telegram',
+      value: '@Ladyti_24',
+      href: 'https://t.me/Ladyti_24',
     },
     {
       icon: (
@@ -68,7 +78,7 @@ const Contact = () => {
         </motion.div>
 
         {/* Contact Methods */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 max-w-7xl mx-auto">
           {contactMethods.map((method, index) => (
             <motion.a
               key={method.label}
@@ -104,7 +114,7 @@ const Contact = () => {
           className="text-center mt-16"
         >
           <motion.a
-            href="mailto:emebet.mesfin@example.com"
+            href="mailto:elady473@gmail.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-primary text-bg font-semibold rounded-full shadow-lg shadow-green/20 hover:shadow-green/40 transition-all"

@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+    scroll-padding-top: 100px;
+  }
+
+  body {
+    @apply min-h-screen bg-bg text-text overflow-x-hidden;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  body::before {
+    content: "";
+    @apply fixed w-[420px] h-[420px] -top-[220px] -left-[180px] pointer-events-none;
+    background: #38d9f5;
+    opacity: 0.08;
+    filter: blur(130px);
+    z-index: -1;
+  }
+
+  body::after {
+    content: "";
+    @apply fixed w-[400px] h-[400px] -bottom-[220px] -right-[180px] pointer-events-none;
+    background: #39f0bd;
+    opacity: 0.06;
+    filter: blur(130px);
+    z-index: -1;
+  }
+
+  ::selection {
+    @apply bg-green text-bg;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply w-full max-w-[1160px] mx-auto px-8;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-green to-sky bg-clip-text text-transparent;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

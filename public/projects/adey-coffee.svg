@@ -1,0 +1,32 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warm background gradient -->
+  <rect width="1200" height="800" fill="url(#paint0_linear)"/>
+  
+  <!-- Coffee cup illustration -->
+  <g opacity="0.3">
+    <ellipse cx="600" cy="650" rx="150" ry="30" fill="#8B6F47" opacity="0.3"/>
+    <path d="M500 400 L500 600 Q500 650 550 650 L650 650 Q700 650 700 600 L700 400 Q700 350 650 350 L550 350 Q500 350 500 400 Z" fill="#D4A574"/>
+    <path d="M480 400 Q480 380 500 380 L700 380 Q720 380 720 400 L720 420 Q720 440 700 440 L500 440 Q480 440 480 420 Z" fill="#E8C4A0"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="600" y="280" font-family="'Manrope', sans-serif" font-size="72" font-weight="800" fill="#2C1810" text-anchor="middle">
+    Adey Coffee &amp; Pastry
+  </text>
+  <text x="600" y="340" font-family="'DM Sans', sans-serif" font-size="24" fill="#8B6F47" text-anchor="middle">
+    Ethiopian Coffee Culture • Fresh Pastries • Warm Moments
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="300" cy="200" r="80" fill="#C4956C" opacity="0.2"/>
+  <circle cx="900" cy="250" r="60" fill="#D4A574" opacity="0.2"/>
+  <circle cx="350" cy="600" r="40" fill="#8B6F47" opacity="0.15"/>
+  <circle cx="850" cy="550" r="50" fill="#C4956C" opacity="0.15"/>
+  
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EDE4"/>
+      <stop offset="1" stop-color="#EAD5C3"/>
+    </linearGradient>
+  </defs>
+</svg>

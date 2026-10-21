@@ -31,5 +31,6 @@ export const projects: Project[] = [
     type: 'full',
     visualType: 'adey',
     figmaUrl: 'https://www.figma.com/design/VPoGr6p4NVxmDn2fQbuF4Z/Adey-Coffee-AND-Pastery?node-id=0-1&p=f&t=zxl3KY6vfBF8cIdD-0',
+    externalUrl: 'https://www.figma.com/proto/VPoGr6p4NVxmDn2fQbuF4Z/Adey-Coffee-AND-Pastery?node-id=2-56&p=f&t=diSXZariM4DNzFOs-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=24%3A416',
   },
 ];

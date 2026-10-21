@@ -20,23 +20,33 @@ const ProjectCard = ({ project, index, onOpenCase }: ProjectCardProps) => {
     >
       {/* Visual Preview */}
       <div className="relative h-64 md:h-80 bg-surface-light overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-green/10 to-sky/10" />
-        
-        {/* Placeholder for project visual */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-6xl md:text-7xl font-heading font-bold text-line/30">
-            {project.id.toUpperCase()}
-          </div>
-        </div>
+        {/* Project Image */}
+        {project.id === 'adey' ? (
+          <img
+            src="/projects/adey-coffee.svg"
+            alt={project.title}
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <>
+            <div className="absolute inset-0 bg-gradient-to-br from-green/10 to-sky/10" />
+            {/* Placeholder for other projects */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="text-6xl md:text-7xl font-heading font-bold text-line/30">
+                {project.id.toUpperCase()}
+              </div>
+            </div>
+          </>
+        )}
 
         {/* Hover Overlay */}
         <div className="absolute inset-0 bg-bg/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row gap-3 px-4">
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => onOpenCase(project.id)}
-              className="px-6 py-3 bg-gradient-primary text-bg font-semibold rounded-full shadow-lg"
+              className="px-6 py-3 bg-gradient-primary text-bg font-semibold rounded-full shadow-lg whitespace-nowrap"
             >
               View Case Study
             </motion.button>
@@ -48,12 +58,12 @@ const ProjectCard = ({ project, index, onOpenCase }: ProjectCardProps) => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="px-6 py-3 bg-surface-light border-2 border-sky text-sky font-semibold rounded-full shadow-lg hover:bg-sky hover:text-bg transition-colors flex items-center gap-2"
+                className="px-6 py-3 bg-surface-light border-2 border-sky text-sky font-semibold rounded-full shadow-lg hover:bg-sky hover:text-bg transition-colors flex items-center justify-center gap-2 whitespace-nowrap"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.019 3.019 3.019h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019 3.019-1.355 3.019-3.019v-3.019H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.019 3.019 3.019 3.019-1.355 3.019-3.019-1.355-3.019-3.019-3.019z"/>
                 </svg>
-                View in Figma
+                View Design
               </motion.a>
             )}
             
@@ -64,12 +74,13 @@ const ProjectCard = ({ project, index, onOpenCase }: ProjectCardProps) => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="px-6 py-3 bg-surface-light border-2 border-green text-green font-semibold rounded-full shadow-lg hover:bg-green hover:text-bg transition-colors flex items-center gap-2"
+                className="px-6 py-3 bg-surface-light border-2 border-green text-green font-semibold rounded-full shadow-lg hover:bg-green hover:text-bg transition-colors flex items-center justify-center gap-2 whitespace-nowrap"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                View Live Site
+                View Prototype
               </motion.a>
             )}
           </div>

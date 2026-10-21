@@ -60,7 +60,7 @@ export const caseStudyDetails: CaseStudyDetails = {
       ],
       [
         'Website experience',
-        'The concept prioritizes a clear menu entry point, an inviting hero section, a story about the café, and practical visit information.',
+        'The concept prioritizes a clear menu entry point, an inviting hero section, a story about the café, and practical visit information. Designed with responsive layouts for both mobile and desktop experiences.',
       ],
       [
         'Typography',
@@ -71,11 +71,15 @@ export const caseStudyDetails: CaseStudyDetails = {
         'Created a complete design system in Figma including color palette, typography scale, component library, and responsive layouts for mobile and desktop views.',
       ],
       [
+        'Interactive prototype',
+        'Built a fully interactive prototype showcasing the complete user flow from landing page through menu exploration, about section, and contact information. The prototype demonstrates navigation patterns and key interactions.',
+      ],
+      [
         'Next steps',
         'Confirm the real brand assets, menu, address, opening hours, and contact details before turning this concept into a live website.',
       ],
     ],
     note:
-      "Adey Coffee & Pastry is presented as a design concept. Replace sample details with verified business information before launch. View the complete design system and prototypes in the Figma file.",
+      "Adey Coffee & Pastry is presented as a design concept. View the full design system in Figma or explore the interactive prototype to experience the complete user flow. Replace sample details with verified business information before launch.",
   },
 };

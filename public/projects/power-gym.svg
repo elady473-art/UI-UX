@@ -1,0 +1,57 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark dramatic background -->
+  <rect width="1200" height="800" fill="url(#paint0_radial)"/>
+  
+  <!-- Silhouettes of fitness people -->
+  <g opacity="0.15">
+    <!-- Left person -->
+    <ellipse cx="300" cy="650" rx="60" ry="15" fill="#000000"/>
+    <path d="M300 400 L300 630 Q300 640 290 640 L310 640 Q320 640 320 630 L320 400 Q320 380 310 380 L290 380 Q300 380 300 400 Z" fill="#CC0000"/>
+    
+    <!-- Right person -->
+    <ellipse cx="900" cy="650" rx="60" ry="15" fill="#000000"/>
+    <path d="M900 420 L900 630 Q900 640 890 640 L910 640 Q920 640 920 630 L920 420 Q920 400 910 400 L890 400 Q900 400 900 420 Z" fill="#CC0000"/>
+  </g>
+  
+  <!-- Power text -->
+  <text x="150" y="280" font-family="'Manrope', sans-serif" font-size="120" font-weight="800" fill="#FFFFFF" letter-spacing="-0.02em">
+    Power
+  </text>
+  
+  <!-- gym text with red -->
+  <text x="150" y="400" font-family="'Manrope', sans-serif" font-size="120" font-weight="800" fill="#FF0000" letter-spacing="-0.02em">
+    gym
+  </text>
+  
+  <!-- Tagline -->
+  <text x="150" y="480" font-family="'DM Sans', sans-serif" font-size="36" fill="#6FB5E8">
+    fight like a
+  </text>
+  <text x="440" y="480" font-family="'DM Sans', sans-serif" font-size="36" font-weight="700" fill="#6FB5E8">
+    champion
+  </text>
+  
+  <!-- Keep your health -->
+  <text x="150" y="200" font-family="'DM Sans', sans-serif" font-size="20" fill="#CCCCCC" letter-spacing="0.1em">
+    keep your health
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="950" cy="200" r="80" fill="#FF0000" opacity="0.1"/>
+  <circle cx="200" cy="600" r="60" fill="#6FB5E8" opacity="0.1"/>
+  <rect x="100" y="550" width="1000" height="2" fill="#FF0000" opacity="0.3"/>
+  
+  <!-- Service icons representation -->
+  <g opacity="0.2">
+    <rect x="200" y="680" width="80" height="80" rx="10" fill="#FFFFFF"/>
+    <rect x="320" y="680" width="80" height="80" rx="10" fill="#FFFFFF"/>
+    <rect x="440" y="680" width="80" height="80" rx="10" fill="#FFFFFF"/>
+  </g>
+  
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 400) rotate(90) scale(800 1200)">
+      <stop stop-color="#2C1A1A"/>
+      <stop offset="1" stop-color="#1A0F0F"/>
+    </radialGradient>
+  </defs>
+</svg>

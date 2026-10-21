@@ -33,6 +33,18 @@ const ProjectCard = ({ project, index, onOpenCase }: ProjectCardProps) => {
             alt={project.title}
             className="w-full h-full object-cover"
           />
+        ) : project.id === 'foodordering' ? (
+          <img
+            src="/projects/food-ordering.svg"
+            alt={project.title}
+            className="w-full h-full object-cover"
+          />
+        ) : project.id === 'powergym' ? (
+          <img
+            src="/projects/power-gym.svg"
+            alt={project.title}
+            className="w-full h-full object-cover"
+          />
         ) : (
           <>
             <div className="absolute inset-0 bg-gradient-to-br from-green/10 to-sky/10" />

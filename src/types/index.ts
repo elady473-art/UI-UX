@@ -5,7 +5,7 @@ export interface Project {
   description: string;
   chips: string[];
   type: 'standard' | 'full';
-  visualType: 'prms' | 'figma' | 'adey' | '3dmodels';
+  visualType: 'prms' | 'figma' | 'adey' | '3dmodels' | 'foodordering' | 'powergym';
   figmaUrl?: string;
   externalUrl?: string;
 }

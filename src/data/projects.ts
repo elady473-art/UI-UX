@@ -2,6 +2,28 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
+    id: 'foodordering',
+    category: 'MOBILE APP · FOOD DELIVERY',
+    title: 'Food Ordering Web App',
+    description:
+      'A vibrant and intuitive food ordering mobile app featuring menu browsing, cart management, and smooth checkout flow with a playful purple gradient design.',
+    chips: ['Mobile UI', 'E-commerce', 'User Flow', 'Figma Prototype'],
+    type: 'standard',
+    visualType: 'foodordering',
+    externalUrl: 'https://www.figma.com/proto/9uJT7Gjs64qwtagH9YPpja/food-ordering-web?node-id=1-2&starting-point-node-id=1%3A2',
+  },
+  {
+    id: 'powergym',
+    category: 'WEBSITE DESIGN · FITNESS',
+    title: 'Power Gym',
+    description:
+      'A bold and energetic gym website design featuring powerful visuals, clear service sections, and motivational messaging to inspire fitness journeys.',
+    chips: ['Web Design', 'Fitness Branding', 'Hero Design', 'Figma'],
+    type: 'standard',
+    visualType: 'powergym',
+    figmaUrl: 'https://www.figma.com/design/ejViX4LZIgashU7NqImReh/power-gym?node-id=0-1&p=f&t=vRG8VPuTXdZUXagU-0',
+  },
+  {
     id: '3dmodels',
     category: '3D DESIGN · CHARACTER MODELS',
     title: '3D Models Collection',

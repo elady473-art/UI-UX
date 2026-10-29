@@ -1,8 +1,8 @@
-# Emebet Mesfin - UI/UX Portfolio
+# UI/UX Portfolio
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS, featuring smooth animations powered by Framer Motion.
 
-## 🚀 Features
+##  Features
 
 - ✨ Modern, clean design with smooth animations
 - 📱 Fully responsive across all devices

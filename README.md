@@ -13,50 +13,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - 🎯 SEO optimized
 - ♿ Accessibility focused
 
-## 📋 Prerequisites
 
-- Node.js (v16 or higher)
-- npm or yarn
-
-## 🛠️ Installation
-
-1. Navigate to the project directory:
-```bash
-cd react-portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Add your profile photo:
-   - Place your photo (without background) in the `public` folder
-   - Name it `profile.png` or update the image path in `src/components/Hero.tsx`
-
-## 🎨 Development
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-The site will be available at `http://localhost:3000`
-
-## 🏗️ Build
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
 
 ## 📝 Customization
 
